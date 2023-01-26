@@ -45,5 +45,5 @@ streamlit.header("Hello from Snowflake:")
 streamlit.dataframe(my_data_rows)
 
 # Allow end user to add a fruit to the list
-add_myFruit = streamlit.text_input('What fruit would you like add?','')
+add_myFruit = streamlit.text_input('What fruit would you like add?')
 streamlit.write('Thanks for adding ', fruit_choice)
